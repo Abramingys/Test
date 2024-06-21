@@ -1,0 +1,113 @@
+.promo {
+  background-image: url("../../assets/Background.jpg");
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__item-str {
+  height: 70px;
+  width: 2px;
+  background-color: var(--black);
+}
+
+.sidebar__list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.sidebar__item-text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-weight: 700;
+}
+
+.sidebar__link svg {
+  display: block;
+}
+
+.main-content {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.intro {
+  max-width: 50%;
+}
+
+.intro__name {
+  margin-bottom: 10px;
+}
+
+.intro__title {
+  font-size: 48px;
+  line-height: 60px;
+  max-width: 532px;
+  margin-bottom: 25px;
+  color: var(--black);
+}
+
+.intro__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button--primary {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.button--primary:hover {
+  background-color: #cc5200;
+}
+
+.button--secondary {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.button--secondary:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.photo__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.burger {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 30px 0 0;
+  flex-direction: column;
+  gap: 6px;
+}
+.burger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #151812;
+}
+.burger span:nth-child(2n) {
+  width: 36px;
+}/*# sourceMappingURL=intro.css.map */
