@@ -1,0 +1,46 @@
+.intro {
+  max-width: 532px;
+  padding: 206px 0 379px;
+}
+.intro::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: var(--orange);
+  transform: translateY(-25%);
+}
+.intro__name {
+  position: relative;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 9px;
+}
+.intro__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-bottom: 27px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.intro__buttons {
+  display: flex;
+  gap: 44px;
+}
+
+.button {
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button--primary {
+  padding: 12px 25px 12px 26px;
+  background-color: var(--orange);
+}
+
+.button--secondary {
+  background-color: inherit;
+}/*# sourceMappingURL=intro.css.map */
