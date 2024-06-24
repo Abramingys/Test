@@ -14,12 +14,8 @@ body {
   padding: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   scroll-behavior: smooth;
 }
@@ -71,6 +67,31 @@ img {
   margin: auto;
   max-width: 1140px;
   border: 1px solid var(--black);
+}
+.u-divider {
+  width: 60px;
+  height: 3px;
+  background-color: var(--orange);
+}
+.page-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+}
+.title-section {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.title-block {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+.page-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 :root {

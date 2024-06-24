@@ -1,0 +1,12 @@
+@mixin before-circle {
+  content: '';
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  background: var(--orange);
+  z-index: -1;
+}
