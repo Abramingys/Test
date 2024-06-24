@@ -1,12 +1,11 @@
 @mixin before-circle {
-  content: '';
-  content: '';
   position: absolute;
   top: -15px;
   left: -15px;
+  z-index: -1;
   width: 36px;
   height: 36px;
   border-radius: 30px;
   background: var(--orange);
-  z-index: -1;
+  content: '';
 }
