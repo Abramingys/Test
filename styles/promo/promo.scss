@@ -1,7 +1,9 @@
 .promo {
   display: flex;
   justify-content: space-between;
+
   height: 800px;
+
   background-image: url('../../assets/Background.jpg');
 }
 
@@ -9,21 +11,26 @@
   &__item-str {
     width: 2px;
     height: 70px;
+
     background-color: var(--black);
   }
 
   &__list {
     display: inline-flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+
     padding: 226px 0 236px 50px;
+
     gap: 15px;
   }
 
   &__item-text {
     font-weight: 700;
-    writing-mode: vertical-lr;
+
     transform: rotate(180deg);
+
+    writing-mode: vertical-lr;
   }
 
   &__link {
@@ -35,15 +42,19 @@
 
 .burger {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  flex-direction: column;
+
   padding: 20px 30px 0 0;
+
   gap: 6px;
 
   span {
     display: block;
+
     width: 30px;
     height: 3px;
+
     background-color: #151812;
 
     &:nth-child(2n) {

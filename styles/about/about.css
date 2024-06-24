@@ -3,9 +3,9 @@
 }
 .about__grid {
   display: grid;
+  align-items: start;
   grid-template-columns: 400px 570px;
   grid-template-rows: minmax(245px, 280px) minmax(240px, auto);
-  align-items: start;
   -moz-column-gap: 70px;
        column-gap: 70px;
 }
@@ -26,8 +26,8 @@
   z-index: -1;
   width: 36px;
   height: 36px;
-  background: var(--orange);
   border-radius: 30px;
+  background: var(--orange);
   content: "";
 }
 .about__subtitle {
@@ -49,8 +49,8 @@
 }
 .about__skills-item {
   display: flex;
-  gap: 35px;
   flex: 0 0 260px;
+  gap: 35px;
 }
 .about__skills-item__text {
   margin-top: 10px;
@@ -63,13 +63,13 @@
 }
 
 .svg-container::before {
-  content: "";
   position: absolute;
   top: -15px;
   left: -15px;
+  z-index: -1;
   width: 36px;
   height: 36px;
   border-radius: 30px;
   background: var(--orange);
-  z-index: -1;
+  content: "";
 }/*# sourceMappingURL=about.css.map */

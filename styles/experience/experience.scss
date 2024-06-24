@@ -5,19 +5,22 @@
 
   &__header {
     position: relative;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 
     .title-section {
       margin-bottom: 8px;
     }
 
     h3::before {
-      @include before-circle;
       top: -6px;
       left: 50%;
+
       transform: translateX(-50%);
+
+      @include before-circle;
     }
 
     h2 {
@@ -27,9 +30,11 @@
 
   &__container {
     display: grid;
+
+    padding: 60px 65px 0 71px;
+
     grid-template-columns: repeat(2, 425px);
     column-gap: 135px;
-    padding: 60px 65px 0 71px;
   }
 
   &__section {
@@ -39,34 +44,43 @@
       position: absolute;
       top: 13px;
       z-index: -1;
+
       width: 1px;
       height: calc(100% - 20px);
+
       background-color: var(--black);
+
       content: '';
     }
   }
 
   &__subtitle {
+    margin-left: 43px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
     &::before {
       position: absolute;
       top: 15px;
       left: -7px;
+
       width: 15px;
       height: 15px;
-      background: var(--orange);
-      border-radius: 30px;
-      transform: translateY(-50%);
-      content: '';
-    }
 
-    margin-left: 43px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
+      border-radius: 30px;
+
+      background: var(--orange);
+
+      content: '';
+
+      transform: translateY(-50%);
+    }
   }
 
   &__item {
     position: relative;
+
     box-sizing: content-box;
     max-width: 375px;
     padding: 0 0 6px 43px;
@@ -77,16 +91,20 @@
 
     &::before {
       position: absolute;
-      left: 0;
       top: 18px;
+      left: 0;
+
       width: 45px;
       height: 1px;
+
       background-color: var(--black);
+
       content: '';
     }
 
     &-header {
       position: relative;
+
       padding: 0 0 12px 56px;
 
       &__icon {
@@ -98,17 +116,21 @@
           top: 0;
           left: 0;
           z-index: -1;
+
           width: 36px;
           height: 36px;
-          background: var(--orange);
+
           border-radius: 30px;
+
+          background: var(--orange);
+
           content: '';
         }
 
         & svg {
           position: absolute;
-          left: 17px;
           top: 14px;
+          left: 17px;
         }
       }
     }

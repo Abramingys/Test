@@ -4,9 +4,10 @@
   padding-top: 120px;
   &__grid {
     display: grid;
+    align-items: start;
+
     grid-template-columns: 400px 570px;
     grid-template-rows: minmax(245px, 280px) minmax(240px, auto);
-    align-items: start;
     column-gap: 70px;
   }
   &__photo {
@@ -17,6 +18,7 @@
   }
   &__title {
     position: relative;
+
     padding: 1px 0 0 12px;
 
     &::before {
@@ -24,10 +26,14 @@
       top: -25%;
       left: 0;
       z-index: -1;
+
       width: 36px;
       height: 36px;
-      background: var(--orange);
+
       border-radius: 30px;
+
+      background: var(--orange);
+
       content: '';
     }
   }
@@ -39,18 +45,21 @@
   }
   &__text {
     margin-top: 20px;
+
     font-size: 14px;
     line-height: 21px;
   }
   &__skills {
     display: flex;
+
     flex-wrap: wrap;
     column-gap: 50px;
     row-gap: 38px;
     &-item {
       display: flex;
-      gap: 35px;
       flex: 0 0 260px;
+
+      gap: 35px;
       &__text {
         margin-top: 10px;
       }
