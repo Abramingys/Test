@@ -42,15 +42,15 @@
 
     &::after {
       position: absolute;
-      top: 13px;
       z-index: -1;
+      top: 13px;
 
       width: 1px;
       height: calc(100% - 20px);
 
-      background-color: var(--black);
-
       content: '';
+
+      background-color: var(--black);
     }
   }
 
@@ -68,13 +68,11 @@
       width: 15px;
       height: 15px;
 
-      border-radius: 30px;
-
-      background: var(--orange);
-
       content: '';
-
       transform: translateY(-50%);
+
+      border-radius: 30px;
+      background: var(--orange);
     }
   }
 
@@ -97,9 +95,9 @@
       width: 45px;
       height: 1px;
 
-      background-color: var(--black);
-
       content: '';
+
+      background-color: var(--black);
     }
 
     &-header {
@@ -113,18 +111,17 @@
 
         &::before {
           position: absolute;
+          z-index: -1;
           top: 0;
           left: 0;
-          z-index: -1;
 
           width: 36px;
           height: 36px;
 
-          border-radius: 30px;
-
-          background: var(--orange);
-
           content: '';
+
+          border-radius: 30px;
+          background: var(--orange);
         }
 
         & svg {

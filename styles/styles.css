@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 @import './styles/normalize.scss';
 
@@ -11,13 +11,14 @@ body {
 
   max-width: 1920px;
   height: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 html {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+
   scroll-behavior: smooth;
 }
 
@@ -34,8 +35,8 @@ ul,
 li,
 a,
 button {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 ul {

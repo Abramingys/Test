@@ -10,19 +10,17 @@
     width: 36px;
     height: 36px;
 
-    border-radius: 30px;
-
-    background-color: var(--orange);
-
     content: '';
-
     transform: translateY(-25%);
+
+    border-radius: 30px;
+    background-color: var(--orange);
   }
   &__name {
     position: relative;
 
-    padding-left: 10px;
     margin-bottom: 9px;
+    padding-left: 10px;
 
     font-weight: bold;
   }

@@ -23,18 +23,17 @@
 
     &::before {
       position: absolute;
+      z-index: -1;
       top: -25%;
       left: 0;
-      z-index: -1;
 
       width: 36px;
       height: 36px;
 
-      border-radius: 30px;
-
-      background: var(--orange);
-
       content: '';
+
+      border-radius: 30px;
+      background: var(--orange);
     }
   }
 
@@ -51,8 +50,8 @@
   }
   &__skills {
     display: flex;
-
     flex-wrap: wrap;
+
     column-gap: 50px;
     row-gap: 38px;
     &-item {
