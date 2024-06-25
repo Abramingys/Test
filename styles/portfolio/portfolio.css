@@ -3,6 +3,7 @@
 }
 .portfolio__list {
   display: grid;
+  justify-content: center;
   margin-top: 60px;
   grid-template: repeat(2, 280px)/repeat(4, 280px);
   grid-auto-rows: 280px;

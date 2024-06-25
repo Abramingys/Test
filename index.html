@@ -647,6 +647,80 @@
           </ul>
         </div>
       </section>
+      <section>
+        <div class="contacts">
+          <div class="contacts__photo">
+            <img src="./assets/aboutphoto.jpg" alt="" />
+          </div>
+          <div class="contacts__description">
+            <div class="contacts__header">
+              <h3 class="title-section contacts__title">Контакты</h3>
+              <h2 class="page-title">Свяжитесь со мной</h2>
+              <div class="u-divider"></div>
+            </div>
+            <p class="title-block contacts__text">
+              Любым удобным для вас способом:
+            </p>
+            <ul class="contacts__social-list">
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./assets/social/Facebook.svg" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://web.telegram.org/k/" target="_blank">
+                  <img src="./assets/social/Telegram.svg" alt="telegram" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="./assets/social/Instagram.svg" alt="instagram" />
+                </a>
+              </li>
+            </ul>
+            <p class="title-block contacts__text">
+              Или оставьте ваши данные и я сама вам напишу:
+            </p>
+            <form class="contacts__form" action="#" method="post">
+              <div class="contacts__input-inline">
+                <div class="contacts__input-group">
+                  <label for="name" class="contacts__label">Ваше имя</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="contacts__input"
+                    placeholder="Иван"
+                  />
+                </div>
+                <div class="contacts__input-group">
+                  <label for="email" class="contacts__label">Ваша почта</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="contacts__input"
+                    placeholder="example@mail.com"
+                  />
+                </div>
+              </div>
+              <div class="contacts__input-group">
+                <label for="message" class="contacts__label"
+                  >Ваше сообщение</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="contacts__textarea"
+                ></textarea>
+              </div>
+              <button type="submit" class="contacts__button title-block">
+                Отправить сообщение
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
