@@ -134,6 +134,10 @@ img {
 .section-header h2 {
   margin-bottom: 20px;
 }
+.opacity {
+  opacity: 0.75;
+  background-color: #fff;
+}
 
 :root {
   --orange: #ffa501;
