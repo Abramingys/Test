@@ -1,0 +1,38 @@
+.price {
+  padding-top: 65px;
+}
+.price__title {
+  margin-bottom: 27px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.price__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
+  row-gap: 15px;
+}
+.price__item {
+  position: relative;
+  flex: 0 1 330px;
+  padding-left: 15px;
+}
+.price__item::before {
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  width: 15px;
+  height: 15px;
+  content: "";
+  border-radius: 100%;
+  background-color: #ffa501;
+}
+.price__item-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=price.css.map */
