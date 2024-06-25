@@ -1,0 +1,13 @@
+.portfolio {
+  padding-top: 125px;
+}
+.portfolio__list {
+  display: grid;
+  margin-top: 60px;
+  grid-template: repeat(2, 280px)/repeat(4, 280px);
+  grid-auto-rows: 280px;
+  gap: 5px;
+}
+.portfolio__list :last-child {
+  grid-column: 2/4;
+}/*# sourceMappingURL=portfolio.css.map */
