@@ -112,5 +112,3 @@ function nthFibo(n) {
 
   return b;
 }
-
-console.log(nthFibo(4));
