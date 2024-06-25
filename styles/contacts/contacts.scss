@@ -85,3 +85,14 @@
     background-color: var(--orange);
   }
 }
+
+.error-message {
+  color: red;
+
+  font-size: 12px;
+}
+.success-message {
+  color: green;
+
+  font-size: 12px;
+}
