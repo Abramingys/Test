@@ -13,14 +13,14 @@
     .title-section {
       margin-bottom: 8px;
     }
-
+    h3::before {
+      @include before-circle;
+    }
     h3::before {
       top: -6px;
       left: 50%;
 
       transform: translateX(-50%);
-
-      @include before-circle;
     }
 
     h2 {

@@ -1,0 +1,65 @@
+.skills {
+  padding-top: 125px;
+}
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0 0 10px;
+  gap: 13px;
+}
+.skills__item {
+  display: flex;
+  flex: 0 1 270px;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 30px 25px 30px;
+  border: 1px solid var(--black);
+  gap: 20px;
+}
+.skills__item-img {
+  display: flex;
+  min-height: 65px;
+}
+.skills__level {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  margin-top: 125px;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  row-gap: 35px;
+}
+.skills__level-title {
+  padding: 2px 0 0 13px;
+}
+.skills__level-item {
+  flex: 0 1 350px;
+}
+.skills__level-item__header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+.skills__level-item__header p::before {
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  content: "";
+  border-radius: 30px;
+  background-color: var(--orange);
+}
+.skills__level-item__line {
+  height: 14px;
+  border-radius: 4px;
+  background-color: #e8e4de;
+}
+.skills__level-item__line span {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background-color: var(--orange);
+}/*# sourceMappingURL=skills.css.map */

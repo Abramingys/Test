@@ -11,9 +11,6 @@
   margin-bottom: 8px;
 }
 .experience__header h3::before {
-  top: -6px;
-  left: 50%;
-  transform: translateX(-50%);
   position: absolute;
   top: -15px;
   left: -15px;
@@ -23,6 +20,11 @@
   border-radius: 30px;
   background: var(--orange);
   content: "";
+}
+.experience__header h3::before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .experience__header h2 {
   margin-bottom: 20px;
@@ -39,12 +41,12 @@
 }
 .experience__section::after {
   position: absolute;
-  top: 13px;
   z-index: -1;
+  top: 13px;
   width: 1px;
   height: calc(100% - 20px);
-  background-color: var(--black);
   content: "";
+  background-color: var(--black);
 }
 .experience__subtitle {
   margin-left: 43px;
@@ -58,10 +60,10 @@
   left: -7px;
   width: 15px;
   height: 15px;
-  border-radius: 30px;
-  background: var(--orange);
   content: "";
   transform: translateY(-50%);
+  border-radius: 30px;
+  background: var(--orange);
 }
 .experience__item {
   position: relative;
@@ -78,8 +80,8 @@
   left: 0;
   width: 45px;
   height: 1px;
-  background-color: var(--black);
   content: "";
+  background-color: var(--black);
 }
 .experience__content-header {
   position: relative;
@@ -91,14 +93,14 @@
 }
 .experience__content-header__icon::before {
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
-  z-index: -1;
   width: 36px;
   height: 36px;
+  content: "";
   border-radius: 30px;
   background: var(--orange);
-  content: "";
 }
 .experience__content-header__icon svg {
   position: absolute;

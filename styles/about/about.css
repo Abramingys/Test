@@ -21,14 +21,14 @@
 }
 .about__title::before {
   position: absolute;
+  z-index: -1;
   top: -25%;
   left: 0;
-  z-index: -1;
   width: 36px;
   height: 36px;
+  content: "";
   border-radius: 30px;
   background: var(--orange);
-  content: "";
 }
 .about__subtitle {
   font-size: 36px;

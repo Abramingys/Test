@@ -18,8 +18,8 @@
   gap: 15px;
 }
 .sidebar__item-text {
-  font-weight: 700;
   transform: rotate(180deg);
+  font-weight: 700;
   writing-mode: vertical-lr;
 }
 .sidebar__link svg {
